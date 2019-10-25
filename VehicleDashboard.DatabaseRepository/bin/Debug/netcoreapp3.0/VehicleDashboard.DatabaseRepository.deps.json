@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "VehicleDashboard.DatabaseRepository/1.0.0": {
+        "dependencies": {
+          "VehicleDashboard.DatabaseEntity": "1.0.0",
+          "VehicleDashboard.DatabaseRepositoryInterface": "1.0.0"
+        },
+        "runtime": {
+          "VehicleDashboard.DatabaseRepository.dll": {}
+        }
+      },
+      "VehicleDashboard.DatabaseEntity/1.0.0": {
+        "runtime": {
+          "VehicleDashboard.DatabaseEntity.dll": {}
+        }
+      },
+      "VehicleDashboard.DatabaseRepositoryInterface/1.0.0": {
+        "runtime": {
+          "VehicleDashboard.DatabaseRepositoryInterface.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VehicleDashboard.DatabaseRepository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VehicleDashboard.DatabaseEntity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VehicleDashboard.DatabaseRepositoryInterface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

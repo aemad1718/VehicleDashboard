@@ -1,0 +1,3 @@
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.SPA\obj\Debug\netcoreapp2.2\VehicleDashboard.SPA.csprojAssemblyReference.cache
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.SPA\obj\Debug\netcoreapp2.2\VehicleDashboard.SPA.AssemblyInfoInputs.cache
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.SPA\obj\Debug\netcoreapp2.2\VehicleDashboard.SPA.AssemblyInfo.cs

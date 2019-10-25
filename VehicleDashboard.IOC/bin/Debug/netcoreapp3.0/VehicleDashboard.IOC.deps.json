@@ -1,0 +1,88 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "VehicleDashboard.IOC/1.0.0": {
+        "dependencies": {
+          "VehicleDashboard.DatabaseRepository": "1.0.0",
+          "VehicleDashboard.DatabaseRepositoryInterface": "1.0.0",
+          "VehicleDashboard.Domain": "1.0.0",
+          "VehicleDashboard.DomainInterface": "1.0.0"
+        },
+        "runtime": {
+          "VehicleDashboard.IOC.dll": {}
+        }
+      },
+      "VehicleDashboard.DatabaseEntity/1.0.0": {
+        "runtime": {
+          "VehicleDashboard.DatabaseEntity.dll": {}
+        }
+      },
+      "VehicleDashboard.DatabaseRepository/1.0.0": {
+        "dependencies": {
+          "VehicleDashboard.DatabaseEntity": "1.0.0",
+          "VehicleDashboard.DatabaseRepositoryInterface": "1.0.0"
+        },
+        "runtime": {
+          "VehicleDashboard.DatabaseRepository.dll": {}
+        }
+      },
+      "VehicleDashboard.DatabaseRepositoryInterface/1.0.0": {
+        "runtime": {
+          "VehicleDashboard.DatabaseRepositoryInterface.dll": {}
+        }
+      },
+      "VehicleDashboard.Domain/1.0.0": {
+        "dependencies": {
+          "VehicleDashboard.DatabaseEntity": "1.0.0",
+          "VehicleDashboard.DatabaseRepositoryInterface": "1.0.0",
+          "VehicleDashboard.DomainInterface": "1.0.0"
+        },
+        "runtime": {
+          "VehicleDashboard.Domain.dll": {}
+        }
+      },
+      "VehicleDashboard.DomainInterface/1.0.0": {
+        "runtime": {
+          "VehicleDashboard.DomainInterface.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VehicleDashboard.IOC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VehicleDashboard.DatabaseEntity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VehicleDashboard.DatabaseRepository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VehicleDashboard.DatabaseRepositoryInterface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VehicleDashboard.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VehicleDashboard.DomainInterface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

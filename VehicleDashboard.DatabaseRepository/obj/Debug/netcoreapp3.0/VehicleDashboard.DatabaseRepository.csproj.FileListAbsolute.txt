@@ -1,0 +1,13 @@
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.DatabaseRepository\bin\Debug\netcoreapp3.0\VehicleDashboard.DatabaseRepository.deps.json
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.DatabaseRepository\bin\Debug\netcoreapp3.0\VehicleDashboard.DatabaseRepository.dll
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.DatabaseRepository\bin\Debug\netcoreapp3.0\VehicleDashboard.DatabaseRepository.pdb
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.DatabaseRepository\bin\Debug\netcoreapp3.0\VehicleDashboard.DatabaseEntity.dll
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.DatabaseRepository\bin\Debug\netcoreapp3.0\VehicleDashboard.DatabaseRepositoryInterface.dll
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.DatabaseRepository\bin\Debug\netcoreapp3.0\VehicleDashboard.DatabaseEntity.pdb
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.DatabaseRepository\bin\Debug\netcoreapp3.0\VehicleDashboard.DatabaseRepositoryInterface.pdb
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.DatabaseRepository\obj\Debug\netcoreapp3.0\VehicleDashboard.DatabaseRepository.csprojAssemblyReference.cache
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.DatabaseRepository\obj\Debug\netcoreapp3.0\VehicleDashboard.DatabaseRepository.AssemblyInfoInputs.cache
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.DatabaseRepository\obj\Debug\netcoreapp3.0\VehicleDashboard.DatabaseRepository.AssemblyInfo.cs
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.DatabaseRepository\obj\Debug\netcoreapp3.0\VehicleDashboard.DatabaseRepository.csproj.CopyComplete
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.DatabaseRepository\obj\Debug\netcoreapp3.0\VehicleDashboard.DatabaseRepository.dll
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.DatabaseRepository\obj\Debug\netcoreapp3.0\VehicleDashboard.DatabaseRepository.pdb

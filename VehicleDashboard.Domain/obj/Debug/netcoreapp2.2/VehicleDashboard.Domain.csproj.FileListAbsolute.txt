@@ -1,0 +1,15 @@
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.Domain\bin\Debug\netcoreapp2.2\VehicleDashboard.Domain.deps.json
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.Domain\bin\Debug\netcoreapp2.2\VehicleDashboard.Domain.dll
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.Domain\bin\Debug\netcoreapp2.2\VehicleDashboard.Domain.pdb
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.Domain\bin\Debug\netcoreapp2.2\VehicleDashboard.DatabaseEntity.dll
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.Domain\bin\Debug\netcoreapp2.2\VehicleDashboard.DatabaseRepositoryInterface.dll
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.Domain\bin\Debug\netcoreapp2.2\VehicleDashboard.DomainInterface.dll
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.Domain\bin\Debug\netcoreapp2.2\VehicleDashboard.DatabaseEntity.pdb
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.Domain\bin\Debug\netcoreapp2.2\VehicleDashboard.DatabaseRepositoryInterface.pdb
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.Domain\bin\Debug\netcoreapp2.2\VehicleDashboard.DomainInterface.pdb
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.Domain\obj\Debug\netcoreapp2.2\VehicleDashboard.Domain.csprojAssemblyReference.cache
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.Domain\obj\Debug\netcoreapp2.2\VehicleDashboard.Domain.AssemblyInfoInputs.cache
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.Domain\obj\Debug\netcoreapp2.2\VehicleDashboard.Domain.AssemblyInfo.cs
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.Domain\obj\Debug\netcoreapp2.2\VehicleDashboard.Domain.csproj.CopyComplete
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.Domain\obj\Debug\netcoreapp2.2\VehicleDashboard.Domain.dll
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.Domain\obj\Debug\netcoreapp2.2\VehicleDashboard.Domain.pdb

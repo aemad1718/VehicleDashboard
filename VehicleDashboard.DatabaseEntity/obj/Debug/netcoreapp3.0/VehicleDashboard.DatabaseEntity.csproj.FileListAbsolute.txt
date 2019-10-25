@@ -1,0 +1,8 @@
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.DatabaseEntity\bin\Debug\netcoreapp3.0\VehicleDashboard.DatabaseEntity.deps.json
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.DatabaseEntity\bin\Debug\netcoreapp3.0\VehicleDashboard.DatabaseEntity.dll
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.DatabaseEntity\bin\Debug\netcoreapp3.0\VehicleDashboard.DatabaseEntity.pdb
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.DatabaseEntity\obj\Debug\netcoreapp3.0\VehicleDashboard.DatabaseEntity.csprojAssemblyReference.cache
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.DatabaseEntity\obj\Debug\netcoreapp3.0\VehicleDashboard.DatabaseEntity.AssemblyInfoInputs.cache
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.DatabaseEntity\obj\Debug\netcoreapp3.0\VehicleDashboard.DatabaseEntity.AssemblyInfo.cs
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.DatabaseEntity\obj\Debug\netcoreapp3.0\VehicleDashboard.DatabaseEntity.dll
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.DatabaseEntity\obj\Debug\netcoreapp3.0\VehicleDashboard.DatabaseEntity.pdb

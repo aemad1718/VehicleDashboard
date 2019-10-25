@@ -1,0 +1,11 @@
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.Simulation\bin\Debug\netcoreapp2.2\appsettings.json
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.Simulation\bin\Debug\netcoreapp2.2\VehicleDashboard.Simulation.deps.json
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.Simulation\bin\Debug\netcoreapp2.2\VehicleDashboard.Simulation.runtimeconfig.json
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.Simulation\bin\Debug\netcoreapp2.2\VehicleDashboard.Simulation.runtimeconfig.dev.json
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.Simulation\bin\Debug\netcoreapp2.2\VehicleDashboard.Simulation.dll
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.Simulation\bin\Debug\netcoreapp2.2\VehicleDashboard.Simulation.pdb
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.Simulation\obj\Debug\netcoreapp2.2\VehicleDashboard.Simulation.AssemblyInfoInputs.cache
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.Simulation\obj\Debug\netcoreapp2.2\VehicleDashboard.Simulation.AssemblyInfo.cs
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.Simulation\obj\Debug\netcoreapp2.2\VehicleDashboard.Simulation.dll
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.Simulation\obj\Debug\netcoreapp2.2\VehicleDashboard.Simulation.pdb
+D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.Simulation\obj\Debug\netcoreapp2.2\VehicleDashboard.Simulation.csprojAssemblyReference.cache

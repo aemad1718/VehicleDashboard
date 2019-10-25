@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VehicleDashboard.DatabaseEntity\VehicleDashboard.DatabaseEntity.csproj" />
+    <ProjectReference Include="..\VehicleDashboard.DatabaseRepositoryInterface\VehicleDashboard.DatabaseRepositoryInterface.csproj" />
+    <ProjectReference Include="..\VehicleDashboard.DomainInterface\VehicleDashboard.DomainInterface.csproj" />
+  </ItemGroup>
+
+</Project>
