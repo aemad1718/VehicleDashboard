@@ -83,10 +83,6 @@ namespace VehicleDashboard.DatabaseRepository
                     .HasMaxLength(20)
                     .IsUnicode(false);
             });
-
-            OnModelCreatingPartial(modelBuilder);
         }
-
-        partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
     }
 }

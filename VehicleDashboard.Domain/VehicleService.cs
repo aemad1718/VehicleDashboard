@@ -1,6 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
-using VehicleDashboard.DatabaseEntity;
 using VehicleDashboard.DatabaseRepositoryInterface;
 using VehicleDashboard.DomainInterface;
 using VehicleDashboard.DomainInterface.Models;

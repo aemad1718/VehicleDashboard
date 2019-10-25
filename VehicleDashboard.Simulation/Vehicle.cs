@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace VehicleDashboard.Simulation
+﻿namespace VehicleDashboard.Simulation
 {
     public partial class Vehicle
     {

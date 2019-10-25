@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace VehicleDashboard.CrossCutting
+﻿namespace VehicleDashboard.CrossCutting
 {
     public interface ILoggerService
     {
