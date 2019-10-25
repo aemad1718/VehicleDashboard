@@ -6,3 +6,10 @@ D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.DomainInterface
 D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.DomainInterface\obj\Debug\netcoreapp2.2\VehicleDashboard.DomainInterface.dll
 D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.DomainInterface\obj\Debug\netcoreapp2.2\VehicleDashboard.DomainInterface.pdb
 D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.DomainInterface\obj\Debug\netcoreapp2.2\VehicleDashboard.DomainInterface.csprojAssemblyReference.cache
+D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DomainInterface\bin\Debug\netcoreapp2.2\VehicleDashboard.DomainInterface.deps.json
+D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DomainInterface\bin\Debug\netcoreapp2.2\VehicleDashboard.DomainInterface.dll
+D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DomainInterface\bin\Debug\netcoreapp2.2\VehicleDashboard.DomainInterface.pdb
+D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DomainInterface\obj\Debug\netcoreapp2.2\VehicleDashboard.DomainInterface.AssemblyInfoInputs.cache
+D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DomainInterface\obj\Debug\netcoreapp2.2\VehicleDashboard.DomainInterface.AssemblyInfo.cs
+D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DomainInterface\obj\Debug\netcoreapp2.2\VehicleDashboard.DomainInterface.dll
+D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DomainInterface\obj\Debug\netcoreapp2.2\VehicleDashboard.DomainInterface.pdb

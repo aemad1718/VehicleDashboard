@@ -12,6 +12,7 @@
   </ItemGroup>
   
   <ItemGroup>
+    <ProjectReference Include="..\VehicleDashboard.CrossCutting\VehicleDashboard.CrossCutting.csproj" />
     <ProjectReference Include="..\VehicleDashboard.DatabaseRepositoryInterface\VehicleDashboard.DatabaseRepositoryInterface.csproj" PrivateAssets="All" />
     <ProjectReference Include="..\VehicleDashboard.DatabaseRepository\VehicleDashboard.DatabaseRepository.csproj" PrivateAssets="All" />
     <ProjectReference Include="..\VehicleDashboard.DomainInterface\VehicleDashboard.DomainInterface.csproj" PrivateAssets="All" />

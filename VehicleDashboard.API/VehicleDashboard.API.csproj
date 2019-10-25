@@ -12,6 +12,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="nlog.config" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.9.5" />
@@ -19,6 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\VehicleDashboard.CrossCutting\VehicleDashboard.CrossCutting.csproj" />
     <ProjectReference Include="..\VehicleDashboard.DomainInterface\VehicleDashboard.DomainInterface.csproj" />
     <ProjectReference Include="..\VehicleDashboard.IOC\VehicleDashboard.IOC.csproj" />
   </ItemGroup>

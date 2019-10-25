@@ -11,3 +11,16 @@ D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.DatabaseReposit
 D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.DatabaseRepository\obj\Debug\netcoreapp2.2\VehicleDashboard.DatabaseRepository.csproj.CopyComplete
 D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.DatabaseRepository\obj\Debug\netcoreapp2.2\VehicleDashboard.DatabaseRepository.dll
 D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.DatabaseRepository\obj\Debug\netcoreapp2.2\VehicleDashboard.DatabaseRepository.pdb
+D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DatabaseRepository\bin\Debug\netcoreapp2.2\VehicleDashboard.DatabaseRepository.deps.json
+D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DatabaseRepository\bin\Debug\netcoreapp2.2\VehicleDashboard.DatabaseRepository.dll
+D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DatabaseRepository\bin\Debug\netcoreapp2.2\VehicleDashboard.DatabaseRepository.pdb
+D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DatabaseRepository\bin\Debug\netcoreapp2.2\VehicleDashboard.DatabaseEntity.dll
+D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DatabaseRepository\bin\Debug\netcoreapp2.2\VehicleDashboard.DatabaseRepositoryInterface.dll
+D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DatabaseRepository\bin\Debug\netcoreapp2.2\VehicleDashboard.DatabaseEntity.pdb
+D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DatabaseRepository\bin\Debug\netcoreapp2.2\VehicleDashboard.DatabaseRepositoryInterface.pdb
+D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DatabaseRepository\obj\Debug\netcoreapp2.2\VehicleDashboard.DatabaseRepository.csprojAssemblyReference.cache
+D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DatabaseRepository\obj\Debug\netcoreapp2.2\VehicleDashboard.DatabaseRepository.AssemblyInfoInputs.cache
+D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DatabaseRepository\obj\Debug\netcoreapp2.2\VehicleDashboard.DatabaseRepository.AssemblyInfo.cs
+D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DatabaseRepository\obj\Debug\netcoreapp2.2\VehicleDashboard.DatabaseRepository.csproj.CopyComplete
+D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DatabaseRepository\obj\Debug\netcoreapp2.2\VehicleDashboard.DatabaseRepository.dll
+D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DatabaseRepository\obj\Debug\netcoreapp2.2\VehicleDashboard.DatabaseRepository.pdb
