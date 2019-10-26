@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleDashboard.Gateway", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleDashboard.CrossCutting", "VehicleDashboard.CrossCutting\VehicleDashboard.CrossCutting.csproj", "{4BF2CC13-1CBD-4DAF-B7E1-0DAEBE2DDDDB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleDashboard.UnitTest", "VehicleDashboard.UnitTest\VehicleDashboard.UnitTest.csproj", "{DA5F2519-FFBE-4B4C-BE1E-22DE42E6C877}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -68,6 +70,10 @@ Global
 		{4BF2CC13-1CBD-4DAF-B7E1-0DAEBE2DDDDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BF2CC13-1CBD-4DAF-B7E1-0DAEBE2DDDDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BF2CC13-1CBD-4DAF-B7E1-0DAEBE2DDDDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA5F2519-FFBE-4B4C-BE1E-22DE42E6C877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA5F2519-FFBE-4B4C-BE1E-22DE42E6C877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA5F2519-FFBE-4B4C-BE1E-22DE42E6C877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA5F2519-FFBE-4B4C-BE1E-22DE42E6C877}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

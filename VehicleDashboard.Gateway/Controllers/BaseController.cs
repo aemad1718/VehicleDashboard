@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
+using VehicleDashboard.CrossCutting;
 
 namespace VehicleDashboard.Gateway.Controllers
 {

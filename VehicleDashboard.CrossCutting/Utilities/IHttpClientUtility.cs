@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace VehicleDashboard.Gateway
+namespace VehicleDashboard.CrossCutting
 {
     public interface IHttpClientUtility
     {

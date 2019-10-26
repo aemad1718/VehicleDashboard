@@ -1919,7 +1919,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "2.2.6",
           "Microsoft.Extensions.Configuration": "2.2.0",
-          "Microsoft.Extensions.Configuration.Json": "2.2.0"
+          "Microsoft.Extensions.Configuration.Json": "2.2.0",
+          "VehicleDashboard.CrossCutting": "1.0.0"
         },
         "compile": {
           "bin/placeholder/VehicleDashboard.DatabaseRepository.dll": {}

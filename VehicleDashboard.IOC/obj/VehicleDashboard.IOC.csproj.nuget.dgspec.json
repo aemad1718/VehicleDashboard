@@ -162,6 +162,9 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
+              "D:\\Alten\\Challenge\\VehicleDashboard\\VehicleDashboard.CrossCutting\\VehicleDashboard.CrossCutting.csproj": {
+                "projectPath": "D:\\Alten\\Challenge\\VehicleDashboard\\VehicleDashboard.CrossCutting\\VehicleDashboard.CrossCutting.csproj"
+              },
               "D:\\Alten\\Challenge\\VehicleDashboard\\VehicleDashboard.DatabaseRepositoryInterface\\VehicleDashboard.DatabaseRepositoryInterface.csproj": {
                 "projectPath": "D:\\Alten\\Challenge\\VehicleDashboard\\VehicleDashboard.DatabaseRepositoryInterface\\VehicleDashboard.DatabaseRepositoryInterface.csproj",
                 "privateAssets": "all"

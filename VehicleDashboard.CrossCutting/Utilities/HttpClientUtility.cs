@@ -1,17 +1,22 @@
 ﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace VehicleDashboard.Gateway
+namespace VehicleDashboard.CrossCutting
 {
     public class HttpClientUtility : IHttpClientUtility
     {
         public async Task<T> Get<T>(string endpointUrl, Dictionary<string, object> parameters = null)
             where T : class, new()
         {
+            if (string.IsNullOrWhiteSpace(endpointUrl))
+            {
+                throw new NullReferenceException();
+            }
             StringBuilder endpoingUrlBuilder = new StringBuilder(endpointUrl);
 
             if (parameters != null && parameters.Count > 0)

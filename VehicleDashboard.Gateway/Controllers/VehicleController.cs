@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using VehicleDashboard.CrossCutting;
 using VehicleDashboard.Gateway.Models;
 
 namespace VehicleDashboard.Gateway.Controllers

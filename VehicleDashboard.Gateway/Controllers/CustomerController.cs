@@ -4,6 +4,7 @@ using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
+using VehicleDashboard.CrossCutting;
 using VehicleDashboard.Gateway.Models;
 
 namespace VehicleDashboard.Gateway.Controllers

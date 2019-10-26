@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using System.IO;
 using VehicleDashboard.API.Extensions;
 using VehicleDashboard.CrossCutting;
 using VehicleDashboard.IOC;
@@ -13,15 +14,18 @@ namespace VehicleDashboard.API
     {
         public Startup(IConfiguration configuration)
         {
-            Configuration = configuration;
-        }
 
-        public IConfiguration Configuration { get; }
+        }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-             services.RegisterServices(Configuration);
+            IConfiguration configuration = new ConfigurationBuilder()
+                 .SetBasePath(Directory.GetCurrentDirectory())
+                 .AddJsonFile("appsettings.json")
+                 .Build();
+
+            services.RegisterServices(configuration);
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }

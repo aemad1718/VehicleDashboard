@@ -7,11 +7,15 @@ using Swashbuckle.AspNetCore.Swagger;
 using System;
 using System.IO;
 using System.Reflection;
+using VehicleDashboard.CrossCutting;
+using VehicleDashboard.Gateway.Extensions;
 
 namespace VehicleDashboard.Gateway
 {
     public class Startup
     {
+        private const string MyAllowSpecificOrigins = "MyAllowSpecificOrigins";
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -23,6 +27,22 @@ namespace VehicleDashboard.Gateway
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped<IHttpClientUtility, HttpClientUtility>();
+            services.AddScoped<ILoggerService, LoggerService>();
+
+            string[] allowedDomains = Configuration["allowedDomains"].Split(',');
+
+            services.AddCors(options =>
+            {
+                options.AddPolicy(MyAllowSpecificOrigins,
+                builder =>
+                {
+                    builder.WithOrigins(allowedDomains)
+                                        .AllowAnyOrigin()
+                                        .AllowAnyMethod()
+                                        .AllowAnyHeader()
+                                        .AllowCredentials();
+                });
+            });
 
             services.AddSwaggerGen(options =>
             {
@@ -38,7 +58,7 @@ namespace VehicleDashboard.Gateway
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerService loggerService)
         {
             if (env.IsDevelopment())
             {
@@ -50,7 +70,12 @@ namespace VehicleDashboard.Gateway
                 app.UseHsts();
             }
 
+            app.ConfigureExceptionHandler(loggerService);
+
             app.UseHttpsRedirection();
+
+            app.UseCors(MyAllowSpecificOrigins);
+
             app.UseMvc();
 
             app.UseSwagger();

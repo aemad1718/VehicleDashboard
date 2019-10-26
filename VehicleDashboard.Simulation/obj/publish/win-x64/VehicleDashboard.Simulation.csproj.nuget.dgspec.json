@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Alten\\Test\\VehicleDashboard\\VehicleDashboard\\VehicleDashboard.Simulation\\VehicleDashboard.Simulation.csproj": {}
+    "D:\\Alten\\Challenge\\VehicleDashboard\\VehicleDashboard.Simulation\\VehicleDashboard.Simulation.csproj": {}
   },
   "projects": {
-    "D:\\Alten\\Test\\VehicleDashboard\\VehicleDashboard\\VehicleDashboard.Simulation\\VehicleDashboard.Simulation.csproj": {
+    "D:\\Alten\\Challenge\\VehicleDashboard\\VehicleDashboard.Simulation\\VehicleDashboard.Simulation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Alten\\Test\\VehicleDashboard\\VehicleDashboard\\VehicleDashboard.Simulation\\VehicleDashboard.Simulation.csproj",
+        "projectUniqueName": "D:\\Alten\\Challenge\\VehicleDashboard\\VehicleDashboard.Simulation\\VehicleDashboard.Simulation.csproj",
         "projectName": "VehicleDashboard.Simulation",
-        "projectPath": "D:\\Alten\\Test\\VehicleDashboard\\VehicleDashboard\\VehicleDashboard.Simulation\\VehicleDashboard.Simulation.csproj",
+        "projectPath": "D:\\Alten\\Challenge\\VehicleDashboard\\VehicleDashboard.Simulation\\VehicleDashboard.Simulation.csproj",
         "packagesPath": "C:\\Users\\engah\\.nuget\\packages\\",
-        "outputPath": "D:\\Alten\\Test\\VehicleDashboard\\VehicleDashboard\\VehicleDashboard.Simulation\\obj\\publish\\win-x64\\",
+        "outputPath": "D:\\Alten\\Challenge\\VehicleDashboard\\VehicleDashboard.Simulation\\obj\\publish\\win-x64\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,6 +41,10 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[2.2.6, )"
