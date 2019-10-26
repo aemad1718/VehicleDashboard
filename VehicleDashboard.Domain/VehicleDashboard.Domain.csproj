@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\VehicleDashboard.DatabaseEntity\VehicleDashboard.DatabaseEntity.csproj" />
     <ProjectReference Include="..\VehicleDashboard.DatabaseRepositoryInterface\VehicleDashboard.DatabaseRepositoryInterface.csproj" />
     <ProjectReference Include="..\VehicleDashboard.DomainInterface\VehicleDashboard.DomainInterface.csproj" />
   </ItemGroup>

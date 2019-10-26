@@ -18,10 +18,11 @@ namespace VehicleDashboard.API.Extensions
                     context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
                     context.Response.ContentType = "application/json";
 
-                    var contextFeature = context.Features.Get<IExceptionHandlerFeature>();
+                    IExceptionHandlerFeature contextFeature = context.Features.Get<IExceptionHandlerFeature>();
+
                     if (contextFeature != null)
                     {
-                        logger.LogError("error :(");
+                        logger.LogError(contextFeature.Error.ToString());
 
                         await context.Response.WriteAsync(new ErrorModel()
                         {

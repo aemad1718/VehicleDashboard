@@ -1913,23 +1913,11 @@
           "bin/placeholder/VehicleDashboard.CrossCutting.dll": {}
         }
       },
-      "VehicleDashboard.DatabaseEntity/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.2",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.6"
-        },
-        "compile": {
-          "bin/placeholder/VehicleDashboard.DatabaseEntity.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/VehicleDashboard.DatabaseEntity.dll": {}
-        }
-      },
       "VehicleDashboard.DatabaseRepository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.6",
           "Microsoft.Extensions.Configuration": "2.2.0",
           "Microsoft.Extensions.Configuration.Json": "2.2.0"
         },
@@ -1957,7 +1945,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
         "dependencies": {
-          "VehicleDashboard.DatabaseEntity": "1.0.0",
           "VehicleDashboard.DatabaseRepositoryInterface": "1.0.0",
           "VehicleDashboard.DomainInterface": "1.0.0"
         },
@@ -6282,11 +6269,6 @@
       "type": "project",
       "path": "../VehicleDashboard.CrossCutting/VehicleDashboard.CrossCutting.csproj",
       "msbuildProject": "../VehicleDashboard.CrossCutting/VehicleDashboard.CrossCutting.csproj"
-    },
-    "VehicleDashboard.DatabaseEntity/1.0.0": {
-      "type": "project",
-      "path": "../VehicleDashboard.DatabaseEntity/VehicleDashboard.DatabaseEntity.csproj",
-      "msbuildProject": "../VehicleDashboard.DatabaseEntity/VehicleDashboard.DatabaseEntity.csproj"
     },
     "VehicleDashboard.DatabaseRepository/1.0.0": {
       "type": "project",

@@ -22,7 +22,6 @@ D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.Gateway\bin\Debug\netcoreap
 D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.Gateway\bin\Debug\netcoreapp2.2\VehicleDashboard.Gateway.runtimeconfig.dev.json
 D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.Gateway\bin\Debug\netcoreapp2.2\VehicleDashboard.Gateway.dll
 D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.Gateway\bin\Debug\netcoreapp2.2\VehicleDashboard.Gateway.pdb
-D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.Gateway\obj\Debug\netcoreapp2.2\VehicleDashboard.Gateway.csprojAssemblyReference.cache
 D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.Gateway\obj\Debug\netcoreapp2.2\VehicleDashboard.Gateway.RazorAssemblyInfo.cache
 D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.Gateway\obj\Debug\netcoreapp2.2\VehicleDashboard.Gateway.RazorAssemblyInfo.cs
 D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.Gateway\obj\Debug\netcoreapp2.2\VehicleDashboard.Gateway.AssemblyInfoInputs.cache
@@ -30,3 +29,5 @@ D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.Gateway\obj\Debug\netcoreap
 D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.Gateway\obj\Debug\netcoreapp2.2\VehicleDashboard.Gateway.RazorTargetAssemblyInfo.cache
 D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.Gateway\obj\Debug\netcoreapp2.2\VehicleDashboard.Gateway.dll
 D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.Gateway\obj\Debug\netcoreapp2.2\VehicleDashboard.Gateway.pdb
+D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.Gateway\obj\Debug\netcoreapp2.2\VehicleDashboard.Gateway.csprojAssemblyReference.cache
+D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.Gateway\bin\Debug\netcoreapp2.2\VehicleDashboard.Gateway.xml

@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using VehicleDashboard.DatabaseEntity;
 using VehicleDashboard.DatabaseRepositoryInterface;
 
 namespace VehicleDashboard.DatabaseRepository

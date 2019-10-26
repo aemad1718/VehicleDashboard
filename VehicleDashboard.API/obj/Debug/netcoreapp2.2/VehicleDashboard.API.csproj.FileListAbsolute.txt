@@ -44,14 +44,12 @@ D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.API\bin\Debug\netcoreapp2.2
 D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.API\bin\Debug\netcoreapp2.2\VehicleDashboard.DatabaseRepository.dll
 D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.API\bin\Debug\netcoreapp2.2\VehicleDashboard.DatabaseRepositoryInterface.dll
 D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.API\bin\Debug\netcoreapp2.2\VehicleDashboard.Domain.dll
-D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.API\bin\Debug\netcoreapp2.2\VehicleDashboard.DatabaseEntity.dll
 D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.API\bin\Debug\netcoreapp2.2\VehicleDashboard.CrossCutting.pdb
 D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.API\bin\Debug\netcoreapp2.2\VehicleDashboard.DomainInterface.pdb
 D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.API\bin\Debug\netcoreapp2.2\VehicleDashboard.IOC.pdb
 D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.API\bin\Debug\netcoreapp2.2\VehicleDashboard.DatabaseRepository.pdb
 D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.API\bin\Debug\netcoreapp2.2\VehicleDashboard.DatabaseRepositoryInterface.pdb
 D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.API\bin\Debug\netcoreapp2.2\VehicleDashboard.Domain.pdb
-D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.API\bin\Debug\netcoreapp2.2\VehicleDashboard.DatabaseEntity.pdb
 D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.API\obj\Debug\netcoreapp2.2\VehicleDashboard.API.csprojAssemblyReference.cache
 D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.API\obj\Debug\netcoreapp2.2\VehicleDashboard.API.RazorAssemblyInfo.cache
 D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.API\obj\Debug\netcoreapp2.2\VehicleDashboard.API.RazorAssemblyInfo.cs

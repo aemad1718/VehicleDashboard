@@ -977,19 +977,6 @@
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
       },
-      "VehicleDashboard.DatabaseEntity/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.2",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.6"
-        },
-        "compile": {
-          "bin/placeholder/VehicleDashboard.DatabaseEntity.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/VehicleDashboard.DatabaseEntity.dll": {}
-        }
-      },
       "VehicleDashboard.DatabaseRepositoryInterface/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
@@ -3650,11 +3637,6 @@
         "system.threading.tasks.nuspec"
       ]
     },
-    "VehicleDashboard.DatabaseEntity/1.0.0": {
-      "type": "project",
-      "path": "../VehicleDashboard.DatabaseEntity/VehicleDashboard.DatabaseEntity.csproj",
-      "msbuildProject": "../VehicleDashboard.DatabaseEntity/VehicleDashboard.DatabaseEntity.csproj"
-    },
     "VehicleDashboard.DatabaseRepositoryInterface/1.0.0": {
       "type": "project",
       "path": "../VehicleDashboard.DatabaseRepositoryInterface/VehicleDashboard.DatabaseRepositoryInterface.csproj",
@@ -3663,10 +3645,10 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "Microsoft.EntityFrameworkCore.SqlServer >= 2.2.6",
       "Microsoft.Extensions.Configuration >= 2.2.0",
       "Microsoft.Extensions.Configuration.Json >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
-      "VehicleDashboard.DatabaseEntity >= 1.0.0",
       "VehicleDashboard.DatabaseRepositoryInterface >= 1.0.0"
     ]
   },
@@ -3700,10 +3682,6 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\Alten\\Challenge\\VehicleDashboard\\VehicleDashboard.DatabaseEntity\\VehicleDashboard.DatabaseEntity.csproj": {
-              "projectPath": "D:\\Alten\\Challenge\\VehicleDashboard\\VehicleDashboard.DatabaseEntity\\VehicleDashboard.DatabaseEntity.csproj",
-              "privateAssets": "all"
-            },
             "D:\\Alten\\Challenge\\VehicleDashboard\\VehicleDashboard.DatabaseRepositoryInterface\\VehicleDashboard.DatabaseRepositoryInterface.csproj": {
               "projectPath": "D:\\Alten\\Challenge\\VehicleDashboard\\VehicleDashboard.DatabaseRepositoryInterface\\VehicleDashboard.DatabaseRepositoryInterface.csproj",
               "privateAssets": "all"
@@ -3720,6 +3698,10 @@
     "frameworks": {
       "netcoreapp2.2": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "[2.2.6, )"
+          },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
             "version": "[2.2.0, )"

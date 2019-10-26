@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using VehicleDashboard.DatabaseEntity;
+using VehicleDashboard.DatabaseRepositoryInterface;
 using VehicleDashboard.DomainInterface.Models;
 
 namespace VehicleDashboard.Domain

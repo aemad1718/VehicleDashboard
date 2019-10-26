@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace VehicleDashboard.DatabaseEntity
+namespace VehicleDashboard.DatabaseRepositoryInterface
 {
     public partial class Customer
     {

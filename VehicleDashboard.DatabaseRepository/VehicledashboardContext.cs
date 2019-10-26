@@ -1,9 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using System;
-using System.IO;
-using System.Reflection;
-using VehicleDashboard.DatabaseEntity;
+﻿using System;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata;
 using VehicleDashboard.DatabaseRepositoryInterface;
 
 namespace VehicleDashboard.DatabaseRepository
@@ -26,7 +23,9 @@ namespace VehicleDashboard.DatabaseRepository
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-           
+            if (!optionsBuilder.IsConfigured)
+            {
+            }
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -83,6 +82,10 @@ namespace VehicleDashboard.DatabaseRepository
                     .HasMaxLength(20)
                     .IsUnicode(false);
             });
+
+            OnModelCreatingPartial(modelBuilder);
         }
+
+        partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
     }
 }

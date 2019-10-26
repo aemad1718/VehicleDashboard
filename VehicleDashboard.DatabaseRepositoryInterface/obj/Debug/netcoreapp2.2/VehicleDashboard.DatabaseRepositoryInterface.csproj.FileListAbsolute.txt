@@ -12,11 +12,8 @@ D:\Alten\Test\VehicleDashboard\VehicleDashboard\VehicleDashboard.DatabaseReposit
 D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DatabaseRepositoryInterface\bin\Debug\netcoreapp2.2\VehicleDashboard.DatabaseRepositoryInterface.deps.json
 D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DatabaseRepositoryInterface\bin\Debug\netcoreapp2.2\VehicleDashboard.DatabaseRepositoryInterface.dll
 D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DatabaseRepositoryInterface\bin\Debug\netcoreapp2.2\VehicleDashboard.DatabaseRepositoryInterface.pdb
-D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DatabaseRepositoryInterface\bin\Debug\netcoreapp2.2\VehicleDashboard.DatabaseEntity.dll
-D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DatabaseRepositoryInterface\bin\Debug\netcoreapp2.2\VehicleDashboard.DatabaseEntity.pdb
-D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DatabaseRepositoryInterface\obj\Debug\netcoreapp2.2\VehicleDashboard.DatabaseRepositoryInterface.csprojAssemblyReference.cache
 D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DatabaseRepositoryInterface\obj\Debug\netcoreapp2.2\VehicleDashboard.DatabaseRepositoryInterface.AssemblyInfoInputs.cache
 D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DatabaseRepositoryInterface\obj\Debug\netcoreapp2.2\VehicleDashboard.DatabaseRepositoryInterface.AssemblyInfo.cs
-D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DatabaseRepositoryInterface\obj\Debug\netcoreapp2.2\VehicleDashboard.DatabaseRepositoryInterface.csproj.CopyComplete
 D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DatabaseRepositoryInterface\obj\Debug\netcoreapp2.2\VehicleDashboard.DatabaseRepositoryInterface.dll
 D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DatabaseRepositoryInterface\obj\Debug\netcoreapp2.2\VehicleDashboard.DatabaseRepositoryInterface.pdb
+D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DatabaseRepositoryInterface\obj\Debug\netcoreapp2.2\VehicleDashboard.DatabaseRepositoryInterface.csprojAssemblyReference.cache

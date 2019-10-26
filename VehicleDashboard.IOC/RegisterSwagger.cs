@@ -11,16 +11,13 @@ namespace VehicleDashboard.IOC
     {
         public static IServiceCollection RegisterSwaggerServices(this IServiceCollection services)
         {
-            // Register the Swagger generator, defining 1 or more Swagger documents
             services.AddSwaggerGen(options =>
             {
                 options.SwaggerDoc("v1", new Info { Title = "Vehicle Dashboard API", Version = "v1" });
 
-                // Get xml comments path
-                var xmlFile = $"{Assembly.GetEntryAssembly().GetName().Name}.xml";
-                var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+                string xmlFile = $"{Assembly.GetEntryAssembly().GetName().Name}.xml";
+                string xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
 
-                // Set xml path
                 options.IncludeXmlComments(xmlPath);
             });
 

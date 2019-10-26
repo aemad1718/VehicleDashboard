@@ -8,8 +8,4 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.6" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\VehicleDashboard.DatabaseEntity\VehicleDashboard.DatabaseEntity.csproj" PrivateAssets="All" />
-  </ItemGroup>
-
 </Project>
