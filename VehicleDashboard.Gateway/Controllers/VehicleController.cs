@@ -31,7 +31,7 @@ namespace VehicleDashboard.Gateway.Controllers
         {
             return await _httClientUtility.Get<List<VehicleModel>>($"{vehicleDashboardApiEndpoint}/vehicle/GetVehicles", new Dictionary<string, object>
             {
-                { "customerId",customerId },
+                {"customerId",customerId },
                 {"isConnected",isConnected }
             });
         }
