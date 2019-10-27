@@ -15,7 +15,6 @@ D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.Simulation\bin\Debug\netcor
 D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.Simulation\bin\Debug\netcoreapp2.2\VehicleDashboard.Simulation.runtimeconfig.dev.json
 D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.Simulation\bin\Debug\netcoreapp2.2\VehicleDashboard.Simulation.dll
 D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.Simulation\bin\Debug\netcoreapp2.2\VehicleDashboard.Simulation.pdb
-D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.Simulation\obj\Debug\netcoreapp2.2\VehicleDashboard.Simulation.csprojAssemblyReference.cache
 D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.Simulation\obj\Debug\netcoreapp2.2\VehicleDashboard.Simulation.AssemblyInfoInputs.cache
 D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.Simulation\obj\Debug\netcoreapp2.2\VehicleDashboard.Simulation.AssemblyInfo.cs
 D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.Simulation\obj\Debug\netcoreapp2.2\VehicleDashboard.Simulation.dll
