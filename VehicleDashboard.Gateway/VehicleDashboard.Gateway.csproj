@@ -5,9 +5,14 @@
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
     <UserSecretsId>74249311-0603-4281-b17a-77d6c2b8b187</UserSecretsId>
     <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+    <Configurations>Debug;Release;CustomBuildConfiguration</Configurations>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DocumentationFile>bin\Debug\netcoreapp2.2\VehicleDashboard.Gateway.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CustomBuildConfiguration|AnyCPU'">
     <DocumentationFile>bin\Debug\netcoreapp2.2\VehicleDashboard.Gateway.xml</DocumentationFile>
   </PropertyGroup>
 

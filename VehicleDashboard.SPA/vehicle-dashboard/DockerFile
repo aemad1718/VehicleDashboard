@@ -1,0 +1,8 @@
+FROM node:11.6.0-alpine AS builder
+COPY . ./vehicle-dashboard
+WORKDIR /vehicle-dashboard
+RUN npm i
+RUN $(npm bin)/ng build --prod
+
+FROM nginx:1.15.8-alpine
+COPY --from=builder /vehicle-dashboard/dist/vehicle-dashboard/ /usr/share/nginx/html

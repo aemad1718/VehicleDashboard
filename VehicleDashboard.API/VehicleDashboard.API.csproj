@@ -5,9 +5,14 @@
     <UserSecretsId>c239d57c-05bc-424b-8992-36830d6155d1</UserSecretsId>
     <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
     <ExcludeXmlAssemblyFiles>false</ExcludeXmlAssemblyFiles>
+    <Configurations>Debug;Release;CustomBuildConfiguration</Configurations>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DocumentationFile>bin\Debug\netcoreapp2.2\VehicleDashboard.API.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CustomBuildConfiguration|AnyCPU'">
     <DocumentationFile>bin\Debug\netcoreapp2.2\VehicleDashboard.API.xml</DocumentationFile>
   </PropertyGroup>
 

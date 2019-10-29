@@ -3,6 +3,6 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  vehicleDashboardApiEndpoing: 'http://localhost:8030/api',
-  production: false
+    vehicleDashboardApiEndpoing: 'https://vehicledashboardgateway.azurewebsites.net/api',
+    production: false
 };

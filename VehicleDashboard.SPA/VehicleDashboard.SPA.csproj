@@ -4,6 +4,7 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <UserSecretsId>7d05465c-534c-44bf-a8d3-5112412e8222</UserSecretsId>
     <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+    <Configurations>Debug;Release;CustomBuildConfiguration</Configurations>
   </PropertyGroup>
 
   <ItemGroup>
