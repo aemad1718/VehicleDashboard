@@ -13,11 +13,7 @@ namespace VehicleDashboard.UnitTest.UtilitiesTests
         {
             HttpClientUtility httpClientUtility = new HttpClientUtility();
 
-            Assert.ThrowsAnyAsync<NullReferenceException>(() => httpClientUtility.Get<FakeResponseModel>(null));
-        }
-
-        private class FakeResponseModel
-        {
+            Assert.ThrowsAnyAsync<NullReferenceException>(() => httpClientUtility.Get<Object>(null));
         }
     }
 }

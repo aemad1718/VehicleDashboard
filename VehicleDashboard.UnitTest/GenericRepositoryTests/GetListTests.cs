@@ -27,11 +27,7 @@ namespace VehicleDashboard.UnitTest.GenericRepositoryTests
 
             GenericRepository genericRepository = new GenericRepository(dbContextMock.Object, loggerMock.Object);
 
-            Assert.Throws<NullReferenceException>(() => genericRepository.GetList<NonDbContextEntity>());
-        }
-
-        private class NonDbContextEntity
-        {
+            Assert.Throws<NullReferenceException>(() => genericRepository.GetList<object>());
         }
     }
 }
