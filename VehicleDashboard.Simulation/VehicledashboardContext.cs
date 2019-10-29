@@ -25,15 +25,16 @@ namespace VehicleDashboard.Simulation
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            string codeBase = Assembly.GetExecutingAssembly().CodeBase;
-            UriBuilder uri = new UriBuilder(codeBase);
-            string path = Uri.UnescapeDataString(uri.Path);
+            var codeBase = Assembly.GetExecutingAssembly().CodeBase;
+            var uri = new UriBuilder(codeBase);
+            var path = Uri.UnescapeDataString(uri.Path);
 
-            IConfigurationRoot configuration = new ConfigurationBuilder()
+            var configuration = new ConfigurationBuilder()
                   .SetBasePath(Path.GetDirectoryName(path))
                   .AddJsonFile("appsettings.json")
                   .Build();
-            string connectionString = configuration.GetConnectionString("vehicleDashboardDbConnection");
+            
+            var connectionString = configuration.GetConnectionString("vehicleDashboardDbConnection");
             optionsBuilder.UseSqlServer(connectionString);
         }
 

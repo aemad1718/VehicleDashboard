@@ -12,7 +12,7 @@ namespace VehicleDashboard.API
 {
     /// <summary>
     /// Initialized at the begining of the application.
-    /// Taking the responsibility of regestering the dependencies in the IOC container.
+    /// Taking the responsibility of registering the dependencies in the IOC container.
     /// Configure all the middleware layers.
     /// Register the global application configurations.
     /// </summary>

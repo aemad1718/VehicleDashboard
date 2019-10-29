@@ -13,3 +13,4 @@ D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DomainInterface\obj\Debug\n
 D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DomainInterface\obj\Debug\netcoreapp2.2\VehicleDashboard.DomainInterface.AssemblyInfo.cs
 D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DomainInterface\obj\Debug\netcoreapp2.2\VehicleDashboard.DomainInterface.dll
 D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DomainInterface\obj\Debug\netcoreapp2.2\VehicleDashboard.DomainInterface.pdb
+D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DomainInterface\obj\Debug\netcoreapp2.2\VehicleDashboard.DomainInterface.csprojAssemblyReference.cache

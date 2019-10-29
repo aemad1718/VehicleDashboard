@@ -16,3 +16,4 @@ D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DatabaseRepositoryInterface
 D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DatabaseRepositoryInterface\obj\Debug\netcoreapp2.2\VehicleDashboard.DatabaseRepositoryInterface.AssemblyInfo.cs
 D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DatabaseRepositoryInterface\obj\Debug\netcoreapp2.2\VehicleDashboard.DatabaseRepositoryInterface.dll
 D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DatabaseRepositoryInterface\obj\Debug\netcoreapp2.2\VehicleDashboard.DatabaseRepositoryInterface.pdb
+D:\Alten\Challenge\VehicleDashboard\VehicleDashboard.DatabaseRepositoryInterface\obj\Debug\netcoreapp2.2\VehicleDashboard.DatabaseRepositoryInterface.csprojAssemblyReference.cache

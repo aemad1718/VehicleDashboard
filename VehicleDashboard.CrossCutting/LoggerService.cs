@@ -4,30 +4,31 @@ namespace VehicleDashboard.CrossCutting
 {
     public class LoggerService : ILoggerService
     {
-        private static ILogger logger = LogManager.GetCurrentClassLogger();
+        private readonly ILogger _logger; 
 
         public LoggerService()
         {
+           _logger = LogManager.GetCurrentClassLogger();
         }
 
         public void LogDebug(string message)
         {
-            logger.Debug(message);
+            _logger.Debug(message);
         }
 
         public void LogError(string message)
         {
-            logger.Error(message);
+            _logger.Error(message);
         }
 
         public void LogInfo(string message)
         {
-            logger.Info(message);
+            _logger.Info(message);
         }
 
         public void LogWarn(string message)
         {
-            logger.Warn(message);
+            _logger.Warn(message);
         }
     }
 }

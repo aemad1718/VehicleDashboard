@@ -38,13 +38,9 @@ namespace VehicleDashboard.DatabaseRepository
                 }
 
                 // Include navigation properties on the DbSet (eager loading).
-                if (navigationProperties != null && navigationProperties.Length > 0)
-                {
-                    foreach (Expression<Func<Entity, object>> navigationProperty in navigationProperties)
-                    {
-                        dbQuery = dbQuery?.Include(navigationProperty);
-                    }
-                }
+                if (navigationProperties == null || navigationProperties.Length <= 0) return dbQuery?.ToList();
+
+                dbQuery = navigationProperties.Aggregate(dbQuery, (current, navigationProperty) => current?.Include(navigationProperty));
 
                 return dbQuery?.ToList();
             }

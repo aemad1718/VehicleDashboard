@@ -15,8 +15,8 @@ namespace VehicleDashboard.IOC
             {
                 options.SwaggerDoc("v1", new Info { Title = "Vehicle Dashboard API", Version = "v1" });
 
-                string xmlFile = $"{Assembly.GetEntryAssembly().GetName().Name}.xml";
-                string xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+                var xmlFile = $"{Assembly.GetEntryAssembly()?.GetName().Name}.xml";
+                var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
 
                 options.IncludeXmlComments(xmlPath);
             });

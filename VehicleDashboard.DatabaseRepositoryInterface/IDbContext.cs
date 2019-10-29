@@ -5,7 +5,7 @@ namespace VehicleDashboard.DatabaseRepositoryInterface
 {
     public interface IDbContext : IDisposable
     {
-        DbSet<Entity> Set<Entity>() where Entity : class;
+        DbSet<TEntity> Set<TEntity>() where TEntity : class;
 
         int SaveChanges();
     }

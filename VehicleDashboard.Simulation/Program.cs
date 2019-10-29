@@ -14,9 +14,9 @@ namespace VehicleDashboard.Simulation
 
         private static void SimulatePingVehicle()
         {
-            int min = 1000;
-            int max = 9999;
-            Random rdm = new Random();
+            var min = 1000;
+            var max = 9999;
+            var rdm = new Random();
 
             using (VehicledashboardContext context = new VehicledashboardContext())
             {
@@ -24,7 +24,7 @@ namespace VehicleDashboard.Simulation
 
                 Parallel.ForEach(vehicles, t =>
                 {
-                    int pingValue = rdm.Next(min, max);
+                    var pingValue = rdm.Next(min, max);
                     t.IsConnected = pingValue % 4 == 0;
                 });
 

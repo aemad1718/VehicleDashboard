@@ -20,10 +20,9 @@ namespace VehicleDashboard.Gateway.Controllers
         /// </summary>
         /// <param name="httpClientUtility"></param>
         /// <param name="configuration"></param>
-        public CustomerController(IHttpClientUtility httpClientUtility, IConfiguration configuration) 
+        public CustomerController(IHttpClientUtility httpClientUtility, IConfiguration configuration)
             : base(httpClientUtility, configuration)
         {
-
         }
 
         /// <summary>

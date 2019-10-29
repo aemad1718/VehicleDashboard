@@ -10,7 +10,7 @@ namespace VehicleDashboard.IOC
     {
         public static IServiceCollection RegisterDatabaseRepositoryServices(this IServiceCollection services, IConfiguration configuration)
         {
-            string connectionString = configuration.GetConnectionString("vehicleDashboardDbConnection");
+            var connectionString = configuration.GetConnectionString("vehicleDashboardDbConnection");
             services.AddDbContext<VehicledashboardContext>(options => options.UseSqlServer(connectionString));
 
             services.AddScoped<IDbContext, VehicledashboardContext>();

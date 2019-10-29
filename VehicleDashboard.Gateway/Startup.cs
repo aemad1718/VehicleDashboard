@@ -33,7 +33,7 @@ namespace VehicleDashboard.Gateway
         /// <summary>
         /// Holds all the application configurations.
         /// </summary>
-        public IConfiguration Configuration { get; }
+        private IConfiguration Configuration { get; }
 
         /// <summary>
         /// This method gets called by the runtime. Use this method to add services to the container.
@@ -46,7 +46,7 @@ namespace VehicleDashboard.Gateway
             services.AddScoped<IHttpClientUtility, HttpClientUtility>();
             services.AddScoped<ILoggerService, LoggerService>();
 
-            string[] allowedDomains = Configuration["allowedDomains"].Split(',');
+            var allowedDomains = Configuration["allowedDomains"].Split(',');
 
             services.AddCors(options =>
             {

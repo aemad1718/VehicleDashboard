@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\engah\.nuget\packages\microsoft.net.test.sdk\16.2.0\build\netcoreapp1.0" t="Include">
+      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
+    </e>
+    <e p="C:\Users\engah\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\engah\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\engah\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="C:\Users\engah\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\engah\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_VehicleDashboard.1975176493.00" t="ExcludeRecursive" />
+    <e p="D:\Alten\Challenge\VehicleDashboard" t="IncludeFlat">
+      <e p=".dockerignore" t="Include" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="VehicleDashboard.API" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="CustomerController.cs" t="Include" />
+          <e p="VehicleController.cs" t="Include" />
+        </e>
+        <e p="DockerFile" t="Include" />
+        <e p="Extensions" t="Include">
+          <e p="ExceptionMiddlewareExtension.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="VehicleDashboard.API.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+          <e p="PublishProfiles" t="Include">
+            <e p="FolderProfile.pubxml" t="Include" />
+            <e p="registry.hub.docker.com_aemad1718.pubxml" t="Include" />
+          </e>
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="VehicleDashboard.API.csproj" t="IncludeRecursive" />
+        <e p="VehicleDashboard.API.xml" t="Include" />
+      </e>
+      <e p="VehicleDashboard.CrossCutting" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Exceptions" t="Include">
+          <e p="ErrorModel.cs" t="Include" />
+        </e>
+        <e p="ILoggerService.cs" t="Include" />
+        <e p="LoggerService.cs" t="Include" />
+        <e p="nlog.config" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="VehicleDashboard.CrossCutting.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Utilities" t="Include">
+          <e p="HttpClientUtility.cs" t="Include" />
+          <e p="IHttpClientUtility.cs" t="Include" />
+        </e>
+        <e p="VehicleDashboard.CrossCutting.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="VehicleDashboard.DatabaseRepository" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CustomerRepository.cs" t="Include" />
+        <e p="efpt.config.json" t="Include" />
+        <e p="GenericRepository.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="VehicleDashboard.DatabaseRepository.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="VehicleDashboard.DatabaseRepository.csproj" t="IncludeRecursive" />
+        <e p="VehicledashboardContext.cs" t="Include" />
+        <e p="VehicleRepository.cs" t="Include" />
+      </e>
+      <e p="VehicleDashboard.DatabaseRepositoryInterface" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Customer.cs" t="Include" />
+        <e p="CustomerAddress.cs" t="Include" />
+        <e p="CustomerVehicle.cs" t="Include" />
+        <e p="efpt.config.json" t="Include" />
+        <e p="ICustomerRepository.cs" t="Include" />
+        <e p="IDbContext.cs" t="Include" />
+        <e p="IGenericRepository.cs" t="Include" />
+        <e p="IVehicleRepository.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="VehicleDashboard.DatabaseRepositoryInterface.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Vehicle.cs" t="Include" />
+        <e p="VehicleDashboard.DatabaseRepositoryInterface.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="VehicleDashboard.Domain" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CustomerService.cs" t="Include" />
+        <e p="ModelExtension.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="VehicleDashboard.Domain.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="VehicleDashboard.Domain.csproj" t="IncludeRecursive" />
+        <e p="VehicleService.cs" t="Include" />
+      </e>
+      <e p="VehicleDashboard.DomainInterface" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ICustomerService.cs" t="Include" />
+        <e p="IVehicleService.cs" t="Include" />
+        <e p="Models" t="Include">
+          <e p="CustomerModel.cs" t="Include" />
+          <e p="VehicleModel.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="VehicleDashboard.DomainInterface.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="VehicleDashboard.DomainInterface.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="VehicleDashboard.Gateway" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="BaseController.cs" t="Include" />
+          <e p="CustomerController.cs" t="Include" />
+          <e p="VehicleController.cs" t="Include" />
+        </e>
+        <e p="DockerFile" t="Include" />
+        <e p="Extensions" t="Include">
+          <e p="ExceptionMiddlewareExtension.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="CustomerModel.cs" t="Include" />
+          <e p="VehicleModel.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="VehicleDashboard.Gateway.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+          <e p="PublishProfiles" t="Include">
+            <e p="FolderProfile.pubxml" t="Include" />
+            <e p="registry.hub.docker.com_aemad1718.pubxml" t="Include" />
+          </e>
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="VehicleDashboard.Gateway.csproj" t="IncludeRecursive" />
+        <e p="VehicleDashboard.Gateway.xml" t="Include" />
+      </e>
+      <e p="VehicleDashboard.IOC" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="VehicleDashboard.IOC.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="RegisterDatabaseRepository.cs" t="Include" />
+        <e p="RegisterDomain.cs" t="Include" />
+        <e p="RegisterSwagger.cs" t="Include" />
+        <e p="ServiceCollectionExtension.cs" t="Include" />
+        <e p="VehicleDashboard.IOC.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="VehicleDashboard.Simulation" t="IncludeRecursive">
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Customer.cs" t="Include" />
+        <e p="CustomerAddress.cs" t="Include" />
+        <e p="CustomerVehicle.cs" t="Include" />
+        <e p="efpt.config.json" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="VehicleDashboard.Simulation.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="PublishProfiles" t="Include">
+            <e p="FolderProfile.pubxml" t="Include" />
+          </e>
+        </e>
+        <e p="Vehicle.cs" t="Include" />
+        <e p="VehicleDashboard.Simulation.csproj" t="IncludeRecursive" />
+        <e p="VehicledashboardContext.cs" t="Include" />
+      </e>
+      <e p="VehicleDashboard.sln" t="IncludeFlat" />
+      <e p="VehicleDashboard.SPA" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DockerFile" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="VehicleDashboard.SPA.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+          <e p="PublishProfiles" t="Include">
+            <e p="registry.hub.docker.com_aemad1718.pubxml" t="Include" />
+          </e>
+        </e>
+        <e p="vehicle-dashboard" t="Include">
+          <e p=".editorconfig" t="Include" />
+          <e p=".gitignore" t="Include" />
+          <e p="angular.json" t="Include" />
+          <e p="browserslist" t="Include" />
+          <e p="DockerFile" t="Include" />
+          <e p="e2e" t="Include">
+            <e p="protractor.conf.js" t="Include" />
+            <e p="src" t="Include">
+              <e p="app.e2e-spec.ts" t="Include" />
+              <e p="app.po.ts" t="Include" />
+            </e>
+            <e p="tsconfig.json" t="Include" />
+          </e>
+          <e p="karma.conf.js" t="Include" />
+          <e p="node_modules\@angular\animations" t="IncludeRecursive" />
+          <e p="node_modules\@angular\cli" t="IncludeRecursive" />
+          <e p="node_modules\@angular\common" t="IncludeRecursive" />
+          <e p="node_modules\@angular\compiler" t="IncludeRecursive" />
+          <e p="node_modules\@angular\compiler-cli" t="IncludeRecursive" />
+          <e p="node_modules\@angular\core" t="IncludeRecursive" />
+          <e p="node_modules\@angular\forms" t="IncludeRecursive" />
+          <e p="node_modules\@angular\platform-browser" t="IncludeRecursive" />
+          <e p="node_modules\@angular\platform-browser-dynamic" t="IncludeRecursive" />
+          <e p="node_modules\@angular\router" t="IncludeRecursive" />
+          <e p="node_modules\@angular-devkit\architect" t="IncludeRecursive" />
+          <e p="node_modules\@angular-devkit\build-angular" t="IncludeRecursive" />
+          <e p="node_modules\@angular-devkit\build-optimizer" t="IncludeRecursive" />
+          <e p="node_modules\@angular-devkit\build-webpack" t="IncludeRecursive" />
+          <e p="node_modules\@angular-devkit\core" t="IncludeRecursive" />
+          <e p="node_modules\@angular-devkit\schematics" t="IncludeRecursive" />
+          <e p="node_modules\@ngtools\webpack" t="IncludeRecursive" />
+          <e p="node_modules\@types" t="IncludeRecursive">
+            <e p="events" t="IncludeRecursive" />
+            <e p="jasmine" t="IncludeRecursive" />
+            <e p="jasminewd2" t="IncludeRecursive" />
+            <e p="minimatch" t="IncludeRecursive" />
+            <e p="node" t="IncludeRecursive" />
+            <e p="source-list-map" t="IncludeRecursive" />
+          </e>
+          <e p="node_modules\ajv" t="IncludeRecursive" />
+          <e p="node_modules\blocking-proxy" t="IncludeRecursive" />
+          <e p="node_modules\bootstrap" t="IncludeRecursive" />
+          <e p="node_modules\canonical-path" t="IncludeRecursive" />
+          <e p="node_modules\chalk" t="IncludeRecursive" />
+          <e p="node_modules\chokidar" t="IncludeRecursive" />
+          <e p="node_modules\codelyzer" t="IncludeRecursive" />
+          <e p="node_modules\commander" t="IncludeRecursive" />
+          <e p="node_modules\dependency-graph" t="IncludeRecursive" />
+          <e p="node_modules\es6-promise" t="IncludeRecursive" />
+          <e p="node_modules\fast-deep-equal" t="IncludeRecursive" />
+          <e p="node_modules\jasmine-core" t="IncludeRecursive" />
+          <e p="node_modules\jasmine-spec-reporter" t="IncludeRecursive" />
+          <e p="node_modules\jest-worker" t="IncludeRecursive" />
+          <e p="node_modules\jquery" t="IncludeRecursive" />
+          <e p="node_modules\karma" t="IncludeRecursive" />
+          <e p="node_modules\karma-chrome-launcher" t="IncludeRecursive" />
+          <e p="node_modules\karma-coverage-istanbul-reporter" t="IncludeRecursive" />
+          <e p="node_modules\karma-jasmine" t="IncludeRecursive" />
+          <e p="node_modules\karma-jasmine-html-reporter" t="IncludeRecursive" />
+          <e p="node_modules\license-webpack-plugin" t="IncludeRecursive" />
+          <e p="node_modules\magic-string" t="IncludeRecursive" />
+          <e p="node_modules\portfinder" t="IncludeRecursive" />
+          <e p="node_modules\postcss" t="IncludeRecursive" />
+          <e p="node_modules\protractor" t="IncludeRecursive" />
+          <e p="node_modules\reflect-metadata" t="IncludeRecursive" />
+          <e p="node_modules\rxjs" t="IncludeRecursive" />
+          <e p="node_modules\source-map" t="IncludeRecursive" />
+          <e p="node_modules\sourcemap-codec" t="IncludeRecursive" />
+          <e p="node_modules\symbol-observable" t="IncludeRecursive" />
+          <e p="node_modules\terser" t="IncludeRecursive" />
+          <e p="node_modules\tree-kill" t="IncludeRecursive" />
+          <e p="node_modules\ts-node" t="IncludeRecursive" />
+          <e p="node_modules\tslib" t="IncludeRecursive" />
+          <e p="node_modules\tslint" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.dom.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.dom.iterable.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2015.collection.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2015.core.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2015.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2015.generator.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2015.iterable.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2015.promise.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2015.proxy.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2015.reflect.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2015.symbol.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2015.symbol.wellknown.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2016.array.include.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2016.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2016.full.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2017.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2017.full.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2017.intl.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2017.object.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2017.sharedmemory.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2017.string.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2017.typedarrays.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2018.asynciterable.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2018.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2018.full.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2018.intl.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2018.promise.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2018.regexp.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2019.array.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2019.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2019.full.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2019.object.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2019.string.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2019.symbol.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2020.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2020.full.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2020.string.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2020.symbol.wellknown.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es5.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es6.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.esnext.array.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.esnext.asynciterable.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.esnext.bigint.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.esnext.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.esnext.full.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.esnext.intl.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.esnext.symbol.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.scripthost.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.webworker.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.webworker.importscripts.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\upath" t="IncludeRecursive" />
+          <e p="node_modules\uri-js" t="IncludeRecursive" />
+          <e p="node_modules\webdriver-js-extender" t="IncludeRecursive" />
+          <e p="node_modules\worker-farm" t="IncludeRecursive" />
+          <e p="node_modules\zone.js" t="IncludeRecursive" />
+          <e p="out-tsc" t="Include">
+            <e p="e2e" t="Include">
+              <e p="app.e2e-spec.js" t="Include" />
+              <e p="app.e2e-spec.js.map" t="Include" />
+              <e p="app.po.js" t="Include" />
+              <e p="app.po.js.map" t="Include" />
+            </e>
+          </e>
+          <e p="package-lock.json" t="Include" />
+          <e p="package.json" t="Include" />
+          <e p="README.md" t="Include" />
+          <e p="src" t="Include">
+            <e p="app" t="Include">
+              <e p="app.component.css" t="Include" />
+              <e p="app.component.html" t="Include" />
+              <e p="app.component.spec.ts" t="Include" />
+              <e p="app.component.ts" t="Include" />
+              <e p="app.module.ts" t="Include" />
+              <e p="customer" t="Include">
+                <e p="customer.service.ts" t="Include" />
+                <e p="Models" t="Include">
+                  <e p="customer.model.ts" t="Include" />
+                </e>
+              </e>
+              <e p="dashboard" t="Include">
+                <e p="dashboard" t="Include">
+                  <e p="dashboard.component.css" t="Include" />
+                  <e p="dashboard.component.html" t="Include" />
+                  <e p="dashboard.component.ts" t="Include" />
+                </e>
+              </e>
+              <e p="vehicle" t="Include">
+                <e p="Models" t="Include">
+                  <e p="vehicle.model.ts" t="Include" />
+                </e>
+                <e p="vehicle.service.ts" t="Include" />
+              </e>
+            </e>
+            <e p="assets" t="Include">
+              <e p=".gitkeep" t="Include" />
+            </e>
+            <e p="environments" t="Include">
+              <e p="environment.prod.ts" t="Include" />
+              <e p="environment.ts" t="Include" />
+            </e>
+            <e p="favicon.ico" t="Include" />
+            <e p="index.html" t="Include" />
+            <e p="main.ts" t="Include" />
+            <e p="polyfills.ts" t="Include" />
+            <e p="styles.css" t="Include" />
+            <e p="test.ts" t="Include" />
+          </e>
+          <e p="tsconfig.app.json" t="Include" />
+          <e p="tsconfig.json" t="Include" />
+          <e p="tsconfig.spec.json" t="Include" />
+          <e p="tslint.json" t="Include" />
+        </e>
+        <e p="VehicleDashboard.SPA.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="VehicleDashboard.UnitTest" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="GenericRepositoryTests" t="Include">
+          <e p="GetListTests.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="VehicleDashboard.UnitTest.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="UtilitiesTests" t="Include">
+          <e p="HttpClientUtilityTests.cs" t="Include" />
+        </e>
+        <e p="VehicleDashboard.UnitTest.csproj" t="IncludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
