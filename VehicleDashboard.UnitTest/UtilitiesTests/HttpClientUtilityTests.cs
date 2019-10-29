@@ -9,14 +9,14 @@ namespace VehicleDashboard.UnitTest.UtilitiesTests
     {
         [Fact]
         [Trait("Category", "GenericRepository-GetList")]
-        public void Get_NoEndpoingUrlPassedShouldThrowException()
+        public void GetNoEndpoingUrlPassedShouldThrowException()
         {
             HttpClientUtility httpClientUtility = new HttpClientUtility();
 
             Assert.ThrowsAnyAsync<NullReferenceException>(() => httpClientUtility.Get<FakeResponseModel>(null));
         }
 
-        public class FakeResponseModel
+        private class FakeResponseModel
         {
         }
     }

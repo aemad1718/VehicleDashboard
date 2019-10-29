@@ -12,18 +12,35 @@ using VehicleDashboard.Gateway.Extensions;
 
 namespace VehicleDashboard.Gateway
 {
+    /// <summary>
+    /// Initialized at the begining of the application.
+    /// Taking the responsibility of regestering the dependencies in the IOC container.
+    /// Configure all the middleware layers.
+    /// Register the global application configurations.
+    /// </summary>
     public class Startup
     {
         private const string MyAllowSpecificOrigins = "MyAllowSpecificOrigins";
 
+        /// <summary>
+        /// Taking the responsibility of initializing the dependencies.
+        /// </summary>
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
         }
 
+        /// <summary>
+        /// Holds all the application configurations.
+        /// </summary>
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
+        /// <summary>
+        /// This method gets called by the runtime. Use this method to add services to the container.
+        /// Register the global application configurations from appsettings.json file.
+        /// Register the allowed domains.
+        /// </summary>
+        /// <param name="services"></param>
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped<IHttpClientUtility, HttpClientUtility>();
@@ -57,19 +74,15 @@ namespace VehicleDashboard.Gateway
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        /// <summary>
+        /// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        /// This method registers swagger.
+        /// </summary>
+        /// <param name="app"></param>
+        /// <param name="env"></param>
+        /// <param name="loggerService"></param>
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerService loggerService)
         {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
-            else
-            {
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-                app.UseHsts();
-            }
-
             app.ConfigureExceptionHandler(loggerService);
 
             app.UseHttpsRedirection();

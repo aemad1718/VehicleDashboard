@@ -10,14 +10,27 @@ using VehicleDashboard.IOC;
 
 namespace VehicleDashboard.API
 {
+    /// <summary>
+    /// Initialized at the begining of the application.
+    /// Taking the responsibility of regestering the dependencies in the IOC container.
+    /// Configure all the middleware layers.
+    /// Register the global application configurations.
+    /// </summary>
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        /// <summary>
+        /// Taking the responsibility of initializing the dependencies.
+        /// </summary>
+        public Startup()
         {
 
         }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
+        /// <summary>
+        /// This method gets called by the runtime. Use this method to add services to the container.
+        /// Register the global application configurations from appsettings.json file
+        /// </summary>
+        /// <param name="services"></param>
         public void ConfigureServices(IServiceCollection services)
         {
             IConfiguration configuration = new ConfigurationBuilder()
@@ -30,7 +43,13 @@ namespace VehicleDashboard.API
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        /// <summary>
+        /// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        /// This method registers swagger.
+        /// </summary>
+        /// <param name="app"></param>
+        /// <param name="env"></param>
+        /// <param name="loggerService"></param>
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerService loggerService)
         {
             app.ConfigureExceptionHandler(loggerService);
@@ -43,6 +62,7 @@ namespace VehicleDashboard.API
             });
 
             app.UseHttpsRedirection();
+
             app.UseMvc();
         }
     }
