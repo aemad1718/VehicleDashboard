@@ -14,6 +14,7 @@ namespace VehicleDashboard.UnitTest.UtilitiesTests
             HttpClientUtility httpClientUtility = new HttpClientUtility();
 
             Assert.ThrowsAnyAsync<NullReferenceException>(() => httpClientUtility.Get<Object>(null));
+            Assert.ThrowsAnyAsync<NullReferenceException>(() => httpClientUtility.Get<Object>(string.Empty));
         }
     }
 }
