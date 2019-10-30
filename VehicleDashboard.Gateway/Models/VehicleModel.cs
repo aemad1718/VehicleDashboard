@@ -16,7 +16,7 @@
         public string Vin { get; set; }
 
         /// <summary>
-        /// Registeration number.
+        /// Registration number.
         /// </summary>
         public string RegNr { get; set; }
 

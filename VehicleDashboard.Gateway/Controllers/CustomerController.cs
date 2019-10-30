@@ -16,7 +16,7 @@ namespace VehicleDashboard.Gateway.Controllers
     public class CustomerController : BaseController
     {
         /// <summary>
-        /// Taking the responsiblity of initializing the dependencies.
+        /// Taking the responsibility of initializing the dependencies.
         /// </summary>
         /// <param name="httpClientUtility"></param>
         /// <param name="configuration"></param>
@@ -34,7 +34,7 @@ namespace VehicleDashboard.Gateway.Controllers
         [ProducesResponseType(500)]
         public async Task<List<CustomerModel>> GetAllAsync()
         {
-            return await _httClientUtility.Get<List<CustomerModel>>($"{vehicleDashboardApiEndpoint}/customer/GetAll");
+            return await HttClientUtility.Get<List<CustomerModel>>($"{VehicleDashboardApiEndpoint}/customer/GetAll");
         }
     }
 }

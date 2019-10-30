@@ -15,7 +15,7 @@ namespace VehicleDashboard.API.Controllers
         private readonly ICustomerService _customerService;
 
         /// <summary>
-        /// Taking the responsiblity of initializing the dependencies.
+        /// Taking the responsibility of initializing the dependencies.
         /// </summary>
         /// <param name="customerService"></param>
         public CustomerController(ICustomerService customerService)

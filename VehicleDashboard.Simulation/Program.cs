@@ -14,13 +14,13 @@ namespace VehicleDashboard.Simulation
 
         private static void SimulatePingVehicle()
         {
-            var min = 1000;
-            var max = 9999;
+            const int min = 1000;
+            const int max = 9999;
             var rdm = new Random();
 
-            using (VehicledashboardContext context = new VehicledashboardContext())
+            using (var context = new VehicledashboardContext())
             {
-                List<Vehicle> vehicles = context.Vehicle.ToList();
+                var vehicles = context.Vehicle.ToList();
 
                 Parallel.ForEach(vehicles, t =>
                 {

@@ -1,4 +1,4 @@
 export const environment = {
-    vehicleDashboardApiEndpoing: 'https://vehicledashboardgateway.azurewebsites.net/api',
+    vehicleDashboardApiEndpoing: 'http://localhost:8030/api',
     production: true
 };

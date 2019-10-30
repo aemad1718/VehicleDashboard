@@ -9,7 +9,7 @@ namespace VehicleDashboard.Gateway
     public static class Program
     {
         /// <summary>
-        /// Start poing method of the application
+        /// Start point method of the application
         /// </summary>
         /// <param name="args"></param>
         public static void Main(string[] args)

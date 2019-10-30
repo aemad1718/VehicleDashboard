@@ -15,7 +15,7 @@ namespace VehicleDashboard.API.Controllers
         private readonly IVehicleService _vehicleService;
 
         /// <summary>
-        /// Taking the responsiblity of initializing the dependencies.
+        /// Taking the responsibility of initializing the dependencies.
         /// </summary>
         /// <param name="vehicleService"></param>
         public VehicleController(IVehicleService vehicleService)

@@ -12,12 +12,12 @@ namespace VehicleDashboard.Gateway.Controllers
         /// <summary>
         /// Allow executing a http call to any extenral API.
         /// </summary>
-        public readonly IHttpClientUtility _httClientUtility;
+        protected readonly IHttpClientUtility HttClientUtility;
 
         /// <summary>
         /// The endpoint URL for the vehicle API.
         /// </summary>
-        public readonly string vehicleDashboardApiEndpoint;
+        protected readonly string VehicleDashboardApiEndpoint;
 
         /// <summary>
         /// Taking the responsibility of:
@@ -28,8 +28,8 @@ namespace VehicleDashboard.Gateway.Controllers
         /// <param name="configuration"></param>
         public BaseController(IHttpClientUtility httClientUtility, IConfiguration configuration)
         {
-            _httClientUtility = httClientUtility;
-            vehicleDashboardApiEndpoint = configuration["vehicleDashboardApiEndpoint"];
+            HttClientUtility = httClientUtility;
+            VehicleDashboardApiEndpoint = configuration["vehicleDashboardApiEndpoint"];
         }
     }
 }

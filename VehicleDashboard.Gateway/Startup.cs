@@ -13,8 +13,8 @@ using VehicleDashboard.Gateway.Extensions;
 namespace VehicleDashboard.Gateway
 {
     /// <summary>
-    /// Initialized at the begining of the application.
-    /// Taking the responsibility of regestering the dependencies in the IOC container.
+    /// Initialized at the beginning of the application.
+    /// Taking the responsibility of registering the dependencies in the IOC container.
     /// Configure all the middleware layers.
     /// Register the global application configurations.
     /// </summary>
@@ -65,8 +65,8 @@ namespace VehicleDashboard.Gateway
             {
                 options.SwaggerDoc("v1", new Info { Title = "Vehicle Dashboard Gateway API", Version = "v1" });
 
-                string xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-                string xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+                var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
 
                 options.IncludeXmlComments(xmlPath);
             });

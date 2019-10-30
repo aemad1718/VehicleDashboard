@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\engah\.nuget\packages\microsoft.net.test.sdk\16.2.0\build\netcoreapp1.0" t="Include">
@@ -76,6 +76,7 @@
             </e>
           </e>
         </e>
+        <e p="VEHICLE_DASHBOARD.sql" t="Include" />
         <e p="VehicleDashboard.DatabaseRepository.csproj" t="IncludeRecursive" />
         <e p="VehicledashboardContext.cs" t="Include" />
         <e p="VehicleRepository.cs" t="Include" />
@@ -228,6 +229,34 @@
           <e p=".gitignore" t="Include" />
           <e p="angular.json" t="Include" />
           <e p="browserslist" t="Include" />
+          <e p="dist" t="Include">
+            <e p="vehicle-dashboard" t="Include">
+              <e p="favicon.ico" t="Include" />
+              <e p="index.html" t="Include" />
+              <e p="main-es2015.js" t="Include" />
+              <e p="main-es2015.js.map" t="Include" />
+              <e p="main-es5.js" t="Include" />
+              <e p="main-es5.js.map" t="Include" />
+              <e p="polyfills-es2015.js" t="Include" />
+              <e p="polyfills-es2015.js.map" t="Include" />
+              <e p="polyfills-es5.js" t="Include" />
+              <e p="polyfills-es5.js.map" t="Include" />
+              <e p="runtime-es2015.js" t="Include" />
+              <e p="runtime-es2015.js.map" t="Include" />
+              <e p="runtime-es5.js" t="Include" />
+              <e p="runtime-es5.js.map" t="Include" />
+              <e p="scripts.js" t="Include" />
+              <e p="scripts.js.map" t="Include" />
+              <e p="styles-es2015.js" t="Include" />
+              <e p="styles-es2015.js.map" t="Include" />
+              <e p="styles-es5.js" t="Include" />
+              <e p="styles-es5.js.map" t="Include" />
+              <e p="vendor-es2015.js" t="Include" />
+              <e p="vendor-es2015.js.map" t="Include" />
+              <e p="vendor-es5.js" t="Include" />
+              <e p="vendor-es5.js.map" t="Include" />
+            </e>
+          </e>
           <e p="DockerFile" t="Include" />
           <e p="e2e" t="Include">
             <e p="protractor.conf.js" t="Include" />
@@ -369,7 +398,6 @@
             <e p="app" t="Include">
               <e p="app.component.css" t="Include" />
               <e p="app.component.html" t="Include" />
-              <e p="app.component.spec.ts" t="Include" />
               <e p="app.component.ts" t="Include" />
               <e p="app.module.ts" t="Include" />
               <e p="customer" t="Include">

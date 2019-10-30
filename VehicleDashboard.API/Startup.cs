@@ -11,7 +11,7 @@ using VehicleDashboard.IOC;
 namespace VehicleDashboard.API
 {
     /// <summary>
-    /// Initialized at the begining of the application.
+    /// Initialized at the beginning of the application.
     /// Taking the responsibility of registering the dependencies in the IOC container.
     /// Configure all the middleware layers.
     /// Register the global application configurations.

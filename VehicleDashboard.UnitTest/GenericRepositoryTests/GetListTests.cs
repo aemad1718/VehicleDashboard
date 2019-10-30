@@ -13,7 +13,7 @@ namespace VehicleDashboard.UnitTest.GenericRepositoryTests
         [Trait("Category", "GenericRepository-GetList")]
         public void GetListNoDbContextPassedShouldThrowException()
         {
-            GenericRepository genericRepository = new GenericRepository(null, new LoggerService());
+            var genericRepository = new GenericRepository(null, new LoggerService());
 
             Assert.Throws<NullReferenceException>(() => genericRepository.GetList<Customer>());
         }
@@ -22,8 +22,8 @@ namespace VehicleDashboard.UnitTest.GenericRepositoryTests
         [Trait("Category", "GenericRepository-GetList")]
         public void GetListNonDbContextEntityPassedShouldThrowException()
         {
-            Mock<VehicledashboardContext> dbContextMock = new Mock<VehicledashboardContext>();
-            Mock<LoggerService> loggerMock = new Mock<LoggerService>();
+            var dbContextMock = new Mock<VehicledashboardContext>();
+            var loggerMock = new Mock<LoggerService>();
 
             GenericRepository genericRepository = new GenericRepository(dbContextMock.Object, loggerMock.Object);
 

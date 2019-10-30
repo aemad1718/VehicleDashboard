@@ -27,7 +27,7 @@ namespace VehicleDashboard.Gateway.Controllers
         }
 
         /// <summary>
-        /// Get all vehciles data.
+        /// Get all vehicles data.
         /// </summary>
         /// <returns>List of vehicles</returns>
         [HttpGet("GetAll")]
@@ -35,7 +35,7 @@ namespace VehicleDashboard.Gateway.Controllers
         [ProducesResponseType(500)]
         public async Task<List<VehicleModel>> GetAll()
         {
-            return await _httClientUtility.Get<List<VehicleModel>>($"{vehicleDashboardApiEndpoint}/vehicle/GetAll");
+            return await HttClientUtility.Get<List<VehicleModel>>($"{VehicleDashboardApiEndpoint}/vehicle/GetAll");
         }
 
         /// <summary>
@@ -53,7 +53,7 @@ namespace VehicleDashboard.Gateway.Controllers
         [ProducesResponseType(500)]
         public async Task<List<VehicleModel>> GetVehicles(bool? isConnected, int? customerId)
         {
-            return await _httClientUtility.Get<List<VehicleModel>>($"{vehicleDashboardApiEndpoint}/vehicle/GetVehicles", new Dictionary<string, object>
+            return await HttClientUtility.Get<List<VehicleModel>>($"{VehicleDashboardApiEndpoint}/vehicle/GetVehicles", new Dictionary<string, object>
             {
                 {"customerId",customerId },
                 {"isConnected",isConnected }
